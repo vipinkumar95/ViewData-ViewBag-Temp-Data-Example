@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@*<h2>@ViewData["Message"]</h2>
+<h2>@ViewData["DateTimes"]</h2>
+
+<ul>
+    @{ 
+        foreach (var i in (string[])ViewData["fruitsarrays"])
+        {
+           <li> @i</li>
+        }
+    }
+</ul>
+
+<ul>
+    @{ 
+        foreach (var i in (List<string>)ViewData["SportsList"])
+        {
+            <li>@i</li>
+        }
+    }
+</ul>*@
+
+
+@*<h2>@ViewBag.message</h2>
+<h2>@ViewBag.DateTime</h2>
+
+
+<ul>
+    @{ 
+        foreach (var i in ViewBag.Color)
+        {
+            <li>@i</li>
+        }
+    }
+</ul>*@
+
+
+@*<ul>
+    @{ 
+        foreach (var i in ViewBag.SportsList)
+        {
+            <li>@i</li>
+        }
+    }
+   
+</ul>*@
